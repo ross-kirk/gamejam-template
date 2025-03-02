@@ -64,6 +64,21 @@ public class Spawner : MonoBehaviour
             _ => Vector3.zero
         };
     }
+    
+    public void ReverseDirection()
+    {
+        rotationDirection = rotationDirection switch
+        {
+            RotationDirection.Forward => RotationDirection.Backward,
+            RotationDirection.Backward => RotationDirection.Forward,
+            _ => rotationDirection
+        };
+    }
+
+    public void UpdateSpeed(float speed)
+    {
+        rotationSpeed = speed;
+    }
 }
 
 public enum RotationDirection
