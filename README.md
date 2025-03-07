@@ -1,4 +1,5 @@
-# Game Jam Engine Template Guide
+# Scottish Widows Game Jam
+## Engine Guide & Templates
 
 This repo serves solely to provide starting points for projects through links to documentation/prepared projects (in Unity). 
 
